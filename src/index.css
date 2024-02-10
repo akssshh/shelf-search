@@ -21,12 +21,13 @@
 
 .book {
   width: 200px;
-  height: 300px;
+  height: 280px;
   background-color: gray;
   border-radius: 6px;
   cursor: pointer;
   overflow: hidden;
   position: relative;
+  object-fit: cover;
 }
 
 .intro {
