@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <nav className="">
-      <div className="bg-cover bg-center mt-4  h-[400px] hero-background">
+      <div className="bg-cover bg-center  h-[500px] hero-background">
         <div className="flex items-center justify-center h-full">
           <input
             type="text"
