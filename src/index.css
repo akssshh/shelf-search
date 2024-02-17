@@ -24,8 +24,8 @@ section {
 }
 
 img {
-  width: 200px;
-  height: 280px;
+  /* width: 180px; */
+  height: 290px;
 }
 
 .book {
@@ -51,27 +51,27 @@ img {
   display: none;
 }
 
-p {
+/* p {
   font-size: 20px;
   margin: 10px;
   visibility: hidden;
   opacity: 0;
   text-align: center;
-}
+} */
 
 .book:hover {
   cursor: pointer;
 }
 
-.book:hover .intro {
+/* .book:hover .intro {
   height: 70px;
   bottom: 0;
   background: black;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
-}
+} */
 
-.book:hover p {
+/* .book:hover p {
   opacity: 1;
   visibility: visible;
-}
+} */

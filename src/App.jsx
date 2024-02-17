@@ -37,8 +37,8 @@ function App() {
                     width={200}
                     height={200}
                   />
-                  <div className="intro">
-                    <p>{book.volumeInfo.title}</p>
+                  <div className="">
+                    <p>JK Rowling</p>
                   </div>
                 </div>
               </>

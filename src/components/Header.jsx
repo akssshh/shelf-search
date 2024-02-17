@@ -5,10 +5,10 @@ const Header = () => {
         <div className="flex items-center justify-center h-full">
           <input
             type="text"
-            className="px-[100px] py-2 rounded-l-lg"
+            className="px-[200px] py-4 rounded-l-lg"
             placeholder="Search..."
           />
-          <button className="px-4 py-2 bg-gray-800 text-white rounded-r-lg">
+          <button className="px-6 py-4 bg-gray-800 text-white rounded-r-lg">
             Go
           </button>
         </div>
