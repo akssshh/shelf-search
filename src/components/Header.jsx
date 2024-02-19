@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <nav className="">
+    <nav>
       <div className="bg-cover bg-center  h-[500px] hero-background">
         <div className="flex items-center justify-center h-full">
           <input
@@ -14,6 +14,8 @@ const Header = () => {
         </div>
       </div>
     </nav>
+
+    
   );
 };
 

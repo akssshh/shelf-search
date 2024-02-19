@@ -26,6 +26,11 @@ function App() {
       <main className="mt-4">
         <div className="books">
           {books.map((book) => {
+
+            const truncateTitle = (title, maxLength) => {
+              return title.length > maxLength ? title.slice(0, maxLength) + "..." : title;
+            }
+
             // let bookImg = book.volumeInfo.imageLinks.smallThumbnail
             return (
               <>
@@ -37,8 +42,9 @@ function App() {
                     width={200}
                     height={200}
                   />
-                  <div className="">
-                    <p>JK Rowling</p>
+                  <div className="text-center">
+                    <p>{truncateTitle(book.volumeInfo.title, 20)}</p>
+                    <p>{book.volumeInfo.authors}</p>
                   </div>
                 </div>
               </>
